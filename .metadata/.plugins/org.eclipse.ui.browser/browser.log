@@ -1,0 +1,105 @@
+
+Dec 01, 2018 12:45:13.76 NEW SESSION
+Dec 01, 2018 12:45:13.76 [11900:15676:1201/124513.762:ERROR:account_tracker.cc(242)] AccessTokenFetched error: Invalid credentials (2).
+Dec 01, 2018 13:08:14.50 [11900:15676:1201/130814.508:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+Dec 01, 2018 13:10:28.64 [14960:14756:1201/131028.633:ERROR:account_tracker.cc(242)] AccessTokenFetched error: Invalid credentials (2).
+Dec 01, 2018 13:14:31.77 [14960:14756:1201/131431.773:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+Dec 01, 2018 13:15:02.05 [2692:17416:1201/131502.052:ERROR:account_tracker.cc(242)] AccessTokenFetched error: Invalid credentials (2).
+Dec 01, 2018 13:15:08.65 [2692:17416:1201/131508.653:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+Dec 01, 2018 13:17:13.78 [10140:13844:1201/131713.785:ERROR:account_tracker.cc(242)] AccessTokenFetched error: Invalid credentials (2).
+Dec 01, 2018 13:18:51.83 [10140:13844:1201/131851.830:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+Dec 01, 2018 13:22:58.85 [18168:592:1201/132258.851:ERROR:account_tracker.cc(242)] AccessTokenFetched error: Invalid credentials (2).
+
+Dec 03, 2018 13:10:24.69 NEW SESSION
+Dec 03, 2018 13:10:24.69 [17160:14860:1203/131024.694:ERROR:account_tracker.cc(242)] AccessTokenFetched error: Invalid credentials (2).
+Dec 03, 2018 13:10:39.59 [17160:16192:1203/131039.590:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 03, 2018 13:10:39.88 [17160:16192:1203/131039.884:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 03, 2018 13:10:40.45 [17160:16192:1203/131040.458:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 03, 2018 13:10:40.82 [17160:16192:1203/131040.826:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 03, 2018 13:17:26.31 [17160:16192:1203/131726.310:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 03, 2018 13:17:26.82 [17160:16192:1203/131726.823:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 03, 2018 13:17:29.49 [17160:16192:1203/131729.493:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 03, 2018 13:17:29.79 [17160:16192:1203/131729.793:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 03, 2018 13:20:43.49 [17160:14860:1203/132043.495:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+Dec 03, 2018 13:22:25.03 [13440:16160:1203/132225.033:ERROR:account_tracker.cc(242)] AccessTokenFetched error: Invalid credentials (2).
+Dec 03, 2018 13:25:14.33 [13440:1540:1203/132514.333:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 03, 2018 13:25:17.20 [13440:1540:1203/132517.208:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 03, 2018 13:25:17.24 [13440:1540:1203/132517.243:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 03, 2018 13:40:01.58 [13440:1540:1203/134001.583:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 03, 2018 13:40:02.55 [13440:1540:1203/134002.550:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 03, 2018 13:40:02.58 [13440:1540:1203/134002.588:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 03, 2018 13:45:16.45 [13440:16160:1203/134516.458:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+Dec 03, 2018 14:20:00.86 [8092:1860:1203/142000.864:ERROR:account_tracker.cc(242)] AccessTokenFetched error: Invalid credentials (2).
+Dec 03, 2018 14:21:52.41 [8092:11032:1203/142152.417:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -100
+Dec 03, 2018 14:29:30.19 [8092:11032:1203/142930.198:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 03, 2018 14:29:41.27 [8092:11032:1203/142941.278:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -100
+Dec 03, 2018 14:31:31.25 [8092:1860:1203/143131.259:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+Dec 03, 2018 14:38:53.65 [3500:17864:1203/143853.651:ERROR:account_tracker.cc(242)] AccessTokenFetched error: Invalid credentials (2).
+Dec 03, 2018 14:39:04.61 [3500:12040:1203/143904.616:ERROR:connection_factory_impl.cc(400)] Failed to connect to MCS endpoint with error -137
+Dec 03, 2018 14:40:41.11 [3500:17864:1203/144041.112:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+
+Dec 03, 2018 18:19:05.24 NEW SESSION
+Dec 03, 2018 18:19:05.24 [1388:12348:1203/181905.240:ERROR:account_tracker.cc(242)] AccessTokenFetched error: Invalid credentials (2).
+Dec 03, 2018 18:40:19.48 [1388:8836:1203/184019.485:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 03, 2018 20:04:14.52 [1388:8836:1203/200414.527:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Dec 03, 2018 20:14:09.84 [1388:8836:1203/201409.838:ERROR:connection_factory_impl.cc(400)] Failed to connect to MCS endpoint with error -106
+Dec 03, 2018 20:14:31.17 [1388:8836:1203/201431.170:ERROR:connection_factory_impl.cc(400)] Failed to connect to MCS endpoint with error -106
+Dec 03, 2018 20:15:16.39 [1388:8836:1203/201516.396:ERROR:connection_factory_impl.cc(400)] Failed to connect to MCS endpoint with error -106
+Dec 03, 2018 20:17:20.19 [1388:8836:1203/201720.190:ERROR:connection_factory_impl.cc(400)] Failed to connect to MCS endpoint with error -106
+Dec 03, 2018 20:17:35.78 [1388:12348:1203/201735.788:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+
+Dec 04, 2018 13:03:03.34 NEW SESSION
+Dec 04, 2018 13:03:03.34 [14552:16740:1204/130303.339:ERROR:account_tracker.cc(242)] AccessTokenFetched error: Invalid credentials (2).
+Dec 04, 2018 13:04:11.67 [14552:6288:1204/130411.669:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 04, 2018 13:04:14.20 [14552:6288:1204/130414.209:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 04, 2018 13:04:14.23 [14552:6288:1204/130414.232:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 04, 2018 13:11:35.69 [14552:6288:1204/131135.695:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 04, 2018 13:11:35.74 [14552:6288:1204/131135.748:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 04, 2018 13:12:08.30 [14552:6288:1204/131208.304:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 04, 2018 13:12:13.53 [14552:6288:1204/131213.529:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 04, 2018 13:32:41.25 [14552:6288:1204/133241.253:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 04, 2018 13:32:41.87 [14552:6288:1204/133241.872:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 04, 2018 13:32:41.97 [14552:6288:1204/133241.971:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 04, 2018 13:32:42.91 [14552:6288:1204/133242.918:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 04, 2018 13:32:44.29 [14552:6288:1204/133244.297:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 04, 2018 13:32:44.35 [14552:6288:1204/133244.353:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 04, 2018 13:34:05.91 [14552:6288:1204/133405.916:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 04, 2018 13:34:06.18 [14552:6288:1204/133406.186:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+Dec 04, 2018 13:37:07.03 [14552:6288:1204/133707.033:ERROR:connection_factory_impl.cc(400)] Failed to connect to MCS endpoint with error -106
+Dec 04, 2018 13:37:29.90 [14552:6288:1204/133729.903:ERROR:connection_factory_impl.cc(400)] Failed to connect to MCS endpoint with error -106
+Dec 04, 2018 13:38:10.57 [14552:6288:1204/133810.571:ERROR:connection_factory_impl.cc(400)] Failed to connect to MCS endpoint with error -106
+
+Dec 05, 2018 21:59:37.60 NEW SESSION
+Dec 05, 2018 21:59:37.60 [3532:6320:1205/215937.419:ERROR:account_tracker.cc(242)] AccessTokenFetched error: Invalid credentials (2).
+Dec 05, 2018 22:00:11.36 [3532:6320:1205/220011.364:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+Dec 05, 2018 22:16:58.45 [15480:3408:1205/221658.439:ERROR:account_tracker.cc(242)] AccessTokenFetched error: Invalid credentials (2).
+Dec 05, 2018 22:17:09.53 [15480:3408:1205/221709.533:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+Dec 05, 2018 23:09:36.51 [13620:12816:1205/230936.512:ERROR:account_tracker.cc(242)] AccessTokenFetched error: Invalid credentials (2).
+Dec 05, 2018 23:12:42.94 [13620:12816:1205/231242.944:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+
+Dec 06, 2018 15:32:47.40 NEW SESSION
+Dec 06, 2018 15:32:47.40 [8972:17592:1206/153247.399:ERROR:account_tracker.cc(242)] AccessTokenFetched error: Invalid credentials (2).
+Dec 06, 2018 15:32:47.64 [8972:5256:1206/153247.461:ERROR:connection_factory_impl.cc(400)] Failed to connect to MCS endpoint with error -106
+Dec 06, 2018 15:33:10.24 [8972:5256:1206/153310.245:ERROR:connection_factory_impl.cc(400)] Failed to connect to MCS endpoint with error -106
+Dec 06, 2018 15:33:57.33 [8972:5256:1206/153357.337:ERROR:connection_factory_impl.cc(400)] Failed to connect to MCS endpoint with error -106
+Dec 06, 2018 15:35:07.42 [8972:17592:1206/153507.422:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+
+Dec 07, 2018 14:21:30.35 NEW SESSION
+Dec 07, 2018 14:21:30.35 [9496:15252:1207/142130.359:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Invalid credentials (2).
+Dec 07, 2018 14:23:18.06 [9496:10996:1207/142318.063:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Dec 07, 2018 14:23:18.12 [9496:10996:1207/142318.125:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -21
+Dec 07, 2018 14:23:20.63 [9496:10996:1207/142320.630:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -106
+Dec 07, 2018 14:24:16.99 [9496:10996:1207/142416.993:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -106
+Dec 07, 2018 14:25:39.26 [9496:10996:1207/142539.266:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -106
+Dec 07, 2018 14:26:47.52 [9496:15252:1207/142647.510:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+Dec 07, 2018 14:31:38.84 [17440:15092:1207/143138.843:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Invalid credentials (2).
+Dec 07, 2018 14:31:38.85 [17440:18800:1207/143138.858:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -106
+Dec 07, 2018 14:31:41.65 [17440:15092:1207/143141.659:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+Dec 07, 2018 14:31:59.89 [19096:15860:1207/143159.892:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Invalid credentials (2).
+Dec 07, 2018 14:31:59.89 [19096:412:1207/143159.892:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -106
+Dec 07, 2018 14:32:06.07 [19096:15860:1207/143206.073:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+Dec 07, 2018 14:33:29.65 [19256:9120:1207/143329.650:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Invalid credentials (2).
+Dec 07, 2018 14:33:29.66 [19256:8612:1207/143329.666:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -106
+Dec 07, 2018 14:33:54.38 [19256:8612:1207/143354.386:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -106
+Dec 07, 2018 14:34:36.76 [19256:8612:1207/143436.765:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -106
+Dec 07, 2018 14:35:59.75 [19256:9120:1207/143559.757:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
