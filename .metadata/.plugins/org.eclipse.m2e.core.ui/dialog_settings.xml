@@ -31,6 +31,12 @@
 		<list key="issueManagementUrl">
 		</list>
 	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item value="480" key="width"/>
+		<item value="720" key="x"/>
+		<item value="0" key="y"/>
+		<item value="838" key="height"/>
+	</section>
 	<section name="MavenProjectWizardArchetypePage">
 		<item value="All Catalogs" key="catalog"/>
 		<list key="projectNameTemplate">
@@ -44,6 +50,10 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Users\yogeshbajaj\workspace\FrontEnd1"/>
+			<item value="D:\Users\yogeshbajaj\workspace\backend1\pom.xml"/>
+			<item value="D:\Users\yogeshbajaj\workspace\Frontend1\src\main\webapp\WEB-INF\Views\index.jsp"/>
+			<item value="D:\Users\yogeshbajaj\workspace\FrontEnd"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -56,20 +66,22 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="BackEnd1.backend1"/>
-			<item value="BackEnd1.com.ecomm"/>
-			<item value="BackEnd1.com.ecomm.config"/>
-			<item value="BackEnd1.coom.ecomm.config"/>
-			<item value="BackEnd1"/>
+			<item value="ecomm.FrontEnd1"/>
+			<item value="ecomm.Demo"/>
+			<item value="ecomm.Frontend2"/>
+			<item value="ecomm.ECommerece"/>
+			<item value="ECommerece.ecomm"/>
 		</list>
 		<list key="groupId">
-			<item value="BackEnd1"/>
+			<item value="ecomm"/>
+			<item value="ECommerece"/>
 		</list>
 		<list key="artifactId">
-			<item value="backend1"/>
-			<item value="com.ecomm"/>
-			<item value="com.ecomm.config"/>
-			<item value="coom.ecomm.config"/>
+			<item value="FrontEnd1"/>
+			<item value="Demo"/>
+			<item value="Frontend2"/>
+			<item value="ECommerece"/>
+			<item value="ecomm"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

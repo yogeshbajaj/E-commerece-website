@@ -25,17 +25,18 @@ public class UserDAOTestCase
 	}
 	
 	@Test
-	@Ignore
+
 	public void registerUserTestCase()
 	{
 		User user=new User();
-		user.setUserId(1);
-		user.setUserName("yogesh");
+		user.setUserId(2);
+		user.setUserName("rohan");
 		user.setMobileNumber(1234567898);
 		user.setUseraddress("pune");
-		user.setUserEmailId("yogeshbajaj98@gmail.com");
+		user.setUserEmailId("rohan@gmail.com");
 		user.setUserPass("12345");
-		user.setUserrole("user");
+		user.setUserrole("admin");
+		user.setEnabled(true);
 		assertTrue("Problem in Adding User",userDAO.registerUser(user));
 	}
 	
@@ -45,7 +46,7 @@ public class UserDAOTestCase
 	public void updateUserTest()
 	{
 		
-			User user=userDAO.getUser(98);
+			User user=userDAO.getUser("yogesh");
 			user.setUserName("Yogesh");
 			assertTrue("Problem in Updating User",userDAO.updateUser(user));
 	}

@@ -1,0 +1,42 @@
+1545286381538	Delete element
+1545288742163	Move 'SecurityImp.xml' to 'WEB-INF'
+1545289586037	Move 'Cart.jsp' to 'Views'
+1545289594392	Move 'ContactUs.jsp' to 'Views'
+1545289599871	Move 'OrderDetail.jsp' to 'Views'
+1545289609811	Move 'AdminHome.jsp' to 'Views'
+1545289779699	Move 'Payment.jsp' to 'Views'
+1545290262368	Move 'thanksyou.jsp' to 'Views'
+1545290435651	Move 'ProductCatalog.jsp' to 'Views'
+1545290511206	Move 'ProductDisplay.jsp' to 'Views'
+1545290669696	Move 'UserHome.jsp' to 'Views'
+1545292172991	Delete element
+1545292239230	Move 'Web.xml' to 'WEB-INF'
+1545292308383	Move 'Web.xml' to 'WEB-INF'
+1545292430363	Move 'Web.xml' to 'Views'
+1545292865261	Move 'Web.xml' to 'lib'
+1545293587962	Move 'Web.xml' to 'WEB-INF'
+1545295411472	Move 'Web.xml' to 'Views'
+1545295475379	Move 'Web.xml' to 'WEB-INF'
+1545295836896	Rename resource 'Web.xml'
+1545296968313	Delete element
+1545297507096	Delete element
+1545298247069	Move 'index.jsp' to 'WebContent'
+1545316514516	Move 'Home.jsp' to 'Views'
+1545322065364	Move 'index.jsp' to 'WEB-INF'
+1545322099618	Move 'index.jsp' to 'Views'
+1545322279581	Move 'index.jsp' to 'WebContent'
+1545322759022	Move 'index.jsp' to 'Views'
+1545323298546	Delete element
+1545323700873	Move 'index.jsp' to 'WebContent'
+1545325788110	Move 'AboutUs.jsp' to 'WEB-INF'
+1545325796860	Move 'AboutUs.jsp' to 'WebContent'
+1545370641935	Move 'AboutUs.jsp' to 'Views'
+1545370770690	Move 'index.jsp' to 'Views'
+1545373058592	Move 'Header.jsp' to 'Views'
+1545373188907	Delete element
+1545381058382	Move 'index.jsp' to 'views'
+1545381178160	Move 'index.jsp' to 'WEB-INF'
+1545381299865	Move 'index.jsp' to 'webapp'
+1545382991628	Delete element
+1545385846821	Delete element
+1545496008208	Rename resource 'dispatcher.servlet.xml'

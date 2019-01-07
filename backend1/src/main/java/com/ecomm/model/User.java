@@ -18,6 +18,13 @@ public class User
 	private int mobileNumber;
 	private String Useraddress;
 	private String Userrole;
+	private boolean enabled;
+	public boolean isEnabled() {
+		return enabled;
+	}
+	public void setEnabled(boolean enabled) {
+		this.enabled = enabled;
+	}
 	public int getUserId() {
 		return userId;
 	}
@@ -33,6 +40,7 @@ public class User
 	public String getUserPass() {
 		return userPass;
 	}
+	
 	public void setUserPass(String userPass) {
 		this.userPass = userPass;
 	}

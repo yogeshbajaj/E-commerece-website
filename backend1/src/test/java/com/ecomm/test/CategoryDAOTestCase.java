@@ -1,17 +1,20 @@
 package com.ecomm.test;
 import static org.junit.Assert.assertTrue;
+
 import java.util.List;
 
-import org.h2.engine.Session;
 import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
 import com.ecomm.dao.CategoryDAO;
 import com.ecomm.model.Category;
 
 public class CategoryDAOTestCase 
 {
+	@Autowired
 	static CategoryDAO categoryDAO;
 
 	@BeforeClass
@@ -20,7 +23,7 @@ public class CategoryDAOTestCase
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
 		context.scan("com.ecomm");
 		context.refresh();
-		categoryDAO=(CategoryDAO) context.getBean("categoryDAO");
+		categoryDAO=(CategoryDAO)context.getBean("categoryDAO");
 	}
 
 	@Test

@@ -1,0 +1,80 @@
+package com.ecomm.test;
+import static org.junit.Assert.assertTrue;
+
+import java.util.List;
+
+import org.junit.BeforeClass;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.ecomm.dao.ProductDAO;
+import com.ecomm.model.Product;
+public class ProductDAOTestCase 
+{
+	@Autowired
+	static ProductDAO productDAO;
+	
+	@BeforeClass
+	public static void executeFirst()
+	{
+		AnnotationConfigApplicationContext context=new AnnotationConfigApplicationContext();
+		context.scan("com.ecomm");
+		context.refresh();
+		productDAO=(ProductDAO)context.getBean("productDAO");
+	}
+	
+
+	@Test
+	
+	public void addProductTestCase()
+	{
+		Product product=new Product();
+		product.setPrice(25000);
+		product.setProductDesc("Mobile");
+		product.setProductName("Iphone");
+		product.setCategoryId(1);
+		product.setStock(20);
+		product.setSupplierId(1);
+		product.setProductId(101);	
+		
+		assertTrue("Problem in adding Product",productDAO.add(product));
+	}
+	
+	@Ignore
+	@Test
+	public void updateCategoryTest()
+	{
+		Product product=productDAO.getProductId(35);
+		product.setProductName("laptop");
+		assertTrue("Problem in Updating Product",productDAO.update(product));
+	}
+	
+	@Ignore
+	@Test
+	public void deleteProductTest()
+	{
+		Product product=productDAO.getProductId(1);
+		assertTrue("Problem in deleting Product",productDAO.delete(product));
+	}
+	
+	
+	@Ignore
+	@Test
+	public void listProductTestCase()
+	{
+		List<Product>ProductList=productDAO.ProductList();
+		assertTrue("Problem in listing Product",ProductList.size()>0);
+		
+		for(Product product:ProductList)
+		{
+			System.out.println(product.getProductId());
+			System.out.println(product.getProductName());
+			System.out.println(product.getProductDesc());
+			System.out.println(product.getStock());
+			System.out.println(product.getPrice());
+		}
+		
+	}
+}

@@ -103,3 +103,80 @@ Dec 07, 2018 14:33:29.66 [19256:8612:1207/143329.666:ERROR:connection_factory_im
 Dec 07, 2018 14:33:54.38 [19256:8612:1207/143354.386:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -106
 Dec 07, 2018 14:34:36.76 [19256:8612:1207/143436.765:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -106
 Dec 07, 2018 14:35:59.75 [19256:9120:1207/143559.757:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+
+Dec 11, 2018 10:57:32.81 NEW SESSION
+Dec 11, 2018 10:57:32.81 [5924:17756:1211/105732.800:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Invalid credentials (2).
+
+Dec 11, 2018 15:02:40.86 NEW SESSION
+Dec 11, 2018 15:02:40.87 [19324:692:1211/150240.867:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+Dec 11, 2018 15:33:12.98 [2992:13752:1211/153312.984:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Dec 11, 2018 15:33:13.02 [2992:13752:1211/153313.029:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -21
+Dec 11, 2018 15:33:15.53 [2992:13752:1211/153315.532:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -106
+Dec 11, 2018 15:34:09.76 [2992:13752:1211/153409.762:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -106
+Dec 11, 2018 15:35:53.28 [2992:13752:1211/153553.283:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -106
+Dec 11, 2018 15:37:19.18 [2992:17880:1211/153719.187:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+
+Dec 18, 2018 13:27:40.87 NEW SESSION
+Dec 18, 2018 13:27:40.87 [13556:18232:1218/132740.870:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Invalid credentials (2).
+Dec 18, 2018 13:27:44.30 [13556:18232:1218/132744.303:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+Dec 18, 2018 14:45:48.49 [3676:17756:1218/144548.468:ERROR:in_progress_cache_impl.cc(203)] Cache is not initialized, cannot RetrieveEntry.
+Dec 18, 2018 14:45:48.49 [3676:17756:1218/144548.468:ERROR:in_progress_cache_impl.cc(203)] Cache is not initialized, cannot RetrieveEntry.
+Dec 18, 2018 14:45:48.49 [3676:17756:1218/144548.468:ERROR:in_progress_cache_impl.cc(203)] Cache is not initialized, cannot RetrieveEntry.
+Dec 18, 2018 14:45:48.49 [3676:17756:1218/144548.468:ERROR:in_progress_cache_impl.cc(203)] Cache is not initialized, cannot RetrieveEntry.
+Dec 18, 2018 14:45:48.49 [3676:17756:1218/144548.468:ERROR:in_progress_cache_impl.cc(203)] Cache is not initialized, cannot RetrieveEntry.
+Dec 18, 2018 14:45:48.49 [3676:17756:1218/144548.468:ERROR:in_progress_cache_impl.cc(203)] Cache is not initialized, cannot RetrieveEntry.
+Dec 18, 2018 14:45:48.49 [3676:17756:1218/144548.468:ERROR:in_progress_cache_impl.cc(203)] Cache is not initialized, cannot RetrieveEntry.
+Dec 18, 2018 14:45:48.49 [3676:17756:1218/144548.468:ERROR:in_progress_cache_impl.cc(203)] Cache is not initialized, cannot RetrieveEntry.
+Dec 18, 2018 14:45:48.49 [3676:17756:1218/144548.468:ERROR:in_progress_cache_impl.cc(203)] Cache is not initialized, cannot RetrieveEntry.
+Dec 18, 2018 14:45:48.50 [3676:17756:1218/144548.468:ERROR:in_progress_cache_impl.cc(203)] Cache is not initialized, cannot RetrieveEntry.
+Dec 18, 2018 14:45:48.53 [3676:17756:1218/144548.533:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Invalid credentials (2).
+Dec 18, 2018 14:53:22.16 [3676:8508:1218/145322.167:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Dec 18, 2018 14:53:22.31 [3676:8508:1218/145322.314:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -21
+Dec 18, 2018 15:01:49.01 [3676:8508:1218/150149.010:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -21
+Dec 18, 2018 15:02:41.88 [3676:8508:1218/150241.886:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Dec 18, 2018 15:02:42.01 [3676:8508:1218/150242.012:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -21
+
+Dec 21, 2018 11:44:27.93 NEW SESSION
+Dec 21, 2018 11:44:27.93 [14984:2656:1221/114427.238:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Invalid credentials (2).
+
+Dec 21, 2018 12:21:30.25 NEW SESSION
+Dec 21, 2018 12:21:30.26 [17868:8820:1221/122130.255:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Invalid credentials (2).
+Dec 21, 2018 12:21:41.22 [17868:13116:1221/122141.219:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -137
+Dec 21, 2018 12:22:09.09 [17868:13116:1221/122209.088:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -105
+Dec 21, 2018 12:23:04.53 [17868:13116:1221/122304.529:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -105
+Dec 21, 2018 12:33:49.18 [17868:13116:1221/123349.187:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Dec 21, 2018 12:33:51.81 [17868:13116:1221/123351.816:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -106
+Dec 21, 2018 12:33:51.87 [17868:13116:1221/123351.871:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -106
+Dec 21, 2018 12:34:48.41 [17868:13116:1221/123448.414:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -106
+Dec 21, 2018 12:35:57.72 [17868:13116:1221/123557.719:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -21
+Dec 21, 2018 12:36:01.01 [17868:13116:1221/123601.007:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -21
+Dec 21, 2018 12:52:35.11 [17868:13116:1221/125235.114:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Dec 21, 2018 12:53:20.65 [17868:13116:1221/125320.657:ERROR:socket_stream.cc(219)] Closing stream with result -2
+
+Dec 21, 2018 23:19:27.30 NEW SESSION
+Dec 21, 2018 23:19:27.31 [19132:11460:1221/231927.299:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Invalid credentials (2).
+
+Dec 27, 2018 10:48:10.86 NEW SESSION
+Dec 27, 2018 10:48:10.86 [17400:11248:1227/104810.858:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Invalid credentials (2).
+Dec 27, 2018 10:48:11.11 [17400:11248:1227/104810.858:ERROR:account_info_fetcher.cc(59)] OnGetTokenFailure: Invalid credentials (2).
+Dec 27, 2018 11:02:41.11 [17400:13612:1227/110241.113:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Dec 27, 2018 11:02:41.18 [17400:13612:1227/110241.185:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -21
+Dec 27, 2018 11:02:45.57 [17400:13612:1227/110245.570:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -21
+Dec 27, 2018 11:02:47.74 [17400:13612:1227/110247.745:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -21
+Dec 27, 2018 11:02:58.17 [17400:13612:1227/110258.177:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Dec 27, 2018 11:03:04.66 [17400:13612:1227/110304.666:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -106
+Dec 27, 2018 11:29:14.93 [17400:13612:1227/112914.934:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Dec 27, 2018 11:29:14.94 [17400:13612:1227/112914.948:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -21
+Dec 27, 2018 11:29:17.21 [17400:13612:1227/112917.210:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -106
+Dec 27, 2018 11:29:31.24 [17400:13612:1227/112931.249:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -105
+Dec 27, 2018 11:29:42.73 [17400:13612:1227/112942.733:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -21
+Dec 27, 2018 11:29:49.08 [17400:13612:1227/112949.082:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -106
+Dec 27, 2018 11:30:19.29 [17400:13612:1227/113019.293:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -105
+Dec 27, 2018 11:30:32.73 [17400:13612:1227/113032.739:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -106
+Dec 27, 2018 11:46:11.36 [17400:11248:1227/114611.365:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+Dec 27, 2018 11:46:53.39 [16136:11988:1227/114653.392:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Invalid credentials (2).
+Dec 27, 2018 11:48:43.17 [16136:15340:1227/114843.170:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Dec 27, 2018 11:48:45.40 [16136:15340:1227/114845.399:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -106
+Dec 27, 2018 11:48:45.69 [16136:15340:1227/114845.690:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -106
+Dec 27, 2018 11:49:40.04 [16136:15340:1227/114940.039:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -106
+Dec 27, 2018 11:58:34.70 [16136:11988:1227/115834.703:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED

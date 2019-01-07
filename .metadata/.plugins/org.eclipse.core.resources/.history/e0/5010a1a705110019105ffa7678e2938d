@@ -1,0 +1,8 @@
+		<html>
+				<ul>
+					<li><a href="#">Home</a>
+					<li><a href="category">Manage Category</a></li>
+					<li><a href="product">Manage Product</a></li>
+					<li><a href="productCatalog"></a>Product Catalog</a></li>
+				</ul>
+			</html>

@@ -1,0 +1,51 @@
+package com.ecomm;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class HomeController 
+{
+
+	@RequestMapping("/login")
+	public String showLoginPage()
+	{
+		return "Login";
+	}
+	@RequestMapping("/Product")
+	public String showProductPage()
+	{
+		return "Product";
+	}
+	@RequestMapping("/Category")
+	public String showCategoryPage()
+	{
+		return "Product";
+	}
+	
+	@RequestMapping("/UserHome")
+	public String showUserHomePage()
+	{
+		return "UserHome";
+	}
+	
+	
+	
+	@RequestMapping("/Register")
+	public String showRegisterPage()
+	{
+		return "Register";
+	}
+	
+	@RequestMapping("/contactus")
+	public String showContactUsPage()
+	{
+		return "ContactUs";
+	}
+	
+	@RequestMapping("/AboutUs")
+	public String showAboutUsPage()
+	{
+		return "AboutUs";
+	}
+}

@@ -1,0 +1,60 @@
+package com.ecomm.dao;
+
+import java.io.Serializable;
+
+import javax.transaction.Transactional;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.junit.Ignore;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import com.ecomm.model.Category;
+import com.ecomm.model.User;
+@Repository("userDAO")
+@Transactional
+public class UserDAOImpl implements UserDAO
+{
+	
+	private static final Serializable UserId = null;
+	@Autowired
+	SessionFactory sessionFactory;
+
+	public boolean registerUser(User userDetail) 
+	{
+		try
+		{
+			sessionFactory.getCurrentSession().save(userDetail);
+			return true;
+		}
+		catch(Exception e)
+		{
+			return false;
+		}
+	}
+
+	public boolean updateUser(User userDetail)
+	{
+		try
+		{
+			sessionFactory.getCurrentSession().update(userDetail);
+			return true;
+		}
+		catch(Exception e)
+		{
+			return false;
+		}
+	}
+	
+	public User getUser(String username) 
+	{
+				
+		Session session=sessionFactory.openSession();
+		User user=session.getUser(username);
+		session.close();
+		return user;
+	}
+	
+
+	
+
+}

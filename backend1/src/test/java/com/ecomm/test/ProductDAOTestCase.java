@@ -1,18 +1,17 @@
 package com.ecomm.test;
-import java.util.*;
-import static org.junit.Assert.*;
-
+import static org.junit.Assert.assertTrue;
+import java.util.List;
 import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
-import com.ecomm.dao.CategoryDAO;
 import com.ecomm.dao.ProductDAO;
-import com.ecomm.model.Category;
+import com.ecomm.dao.CategoryDAO;
 import com.ecomm.model.Product;
 public class ProductDAOTestCase 
 {
+	@Autowired
 	static ProductDAO productDAO;
 	
 	@BeforeClass
@@ -21,44 +20,46 @@ public class ProductDAOTestCase
 		AnnotationConfigApplicationContext context=new AnnotationConfigApplicationContext();
 		context.scan("com.ecomm");
 		context.refresh();
-		productDAO=(ProductDAO)context.getBean("ProductDAO");
+		productDAO=(ProductDAO)context.getBean("productDAO");
 	}
 	
+	
 	@Test
-	@Ignore
 	public void addProductTestCase()
 	{
 		Product product=new Product();
-		product.setProductId(1);
-		product.setProductName("Iphone");
-		product.setProductDesc("Mobile");
+		product.setProductId(999);
 		product.setPrice(25000);
+		product.setProductDesc("Mobile");
+		product.setProductName("Iphone");
+		product.setCategoryId(34);
 		product.setStock(20);
-		product.setSupperId(1);
-		product.setCategoryId(1);
+		product.setSupplierId(2);
+		
 		
 		assertTrue("Problem in adding Product",productDAO.add(product));
 	}
 	
-	@Test
 	@Ignore
+	@Test
 	public void updateCategoryTest()
 	{
-		Product product=productDAO.getProduct(35);
+		Product product=productDAO.getProductId(35);
 		product.setProductName("laptop");
 		assertTrue("Problem in Updating Product",productDAO.update(product));
 	}
 	
-	@Test
 	@Ignore
+	@Test
 	public void deleteProductTest()
 	{
-		Product product=productDAO.getProduct(1);
+		Product product=productDAO.getProductId(1);
 		assertTrue("Problem in deleting Product",productDAO.delete(product));
 	}
 	
-	@Test
+	
 	@Ignore
+	@Test
 	public void listProductTestCase()
 	{
 		List<Product>ProductList=productDAO.ProductList();
@@ -71,6 +72,7 @@ public class ProductDAOTestCase
 			System.out.println(product.getProductDesc());
 			System.out.println(product.getStock());
 			System.out.println(product.getPrice());
+			System.out.println(product.getSupplierId());
 		}
 		
 	}

@@ -1,0 +1,10 @@
+<%@include file="Header.jsp"%>
+
+<c:if test="${sessionScope.loggedIn}">
+				<c:if  test="${sessionScope.role=='admin'}">
+				<ul class="nav navbar-nav">
+					<li><a href="#">Home</a>
+					<li><a href="category">Manage Category</a></li>
+					<li><a href="product">Manage Product</a></li>
+				</ul>
+			</c:if>

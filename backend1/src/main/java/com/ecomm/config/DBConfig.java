@@ -10,7 +10,10 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBuilder;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
+
+import com.ecomm.model.CartItem;
 import com.ecomm.model.Category;
+import com.ecomm.model.OrderDetail;
 import com.ecomm.model.Product;
 import com.ecomm.model.Supplier;
 import com.ecomm.model.User;
@@ -46,6 +49,8 @@ public class DBConfig
 		localsessionFactory.addAnnotatedClass(Product.class);
 		localsessionFactory.addAnnotatedClass(User.class);
 		localsessionFactory.addAnnotatedClass(Supplier.class);
+		localsessionFactory.addAnnotatedClass(CartItem.class);
+		localsessionFactory.addAnnotatedClass(OrderDetail.class);
 		System.out.println("Session Factory source object is created");
 		SessionFactory sessionFactory=localsessionFactory.buildSessionFactory();
 		return sessionFactory;

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;DBConfig.java&apos; to &apos;backend1&apos;&#x0D;&#x0A;- Original project: &apos;backend1&apos;&#x0D;&#x0A;- Destination element: &apos;backend1&apos;&#x0D;&#x0A;- Original element: &apos;com.ecomm.config.DBConfig.java&apos;" description="Copy compilation unit" destination="=backend1" element1="/src\/main\/java&lt;com.ecomm.config{DBConfig.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1544941848194" units="1" version="1.0"/>
+</session>

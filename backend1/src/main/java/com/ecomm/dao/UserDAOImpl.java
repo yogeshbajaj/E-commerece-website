@@ -45,12 +45,15 @@ public class UserDAOImpl implements UserDAO
 		}
 	}
 	
-	public User getUser(int Userid) 
+	public User getUser(String username) 
 	{
-				return null;
-	}
+				
+		Session session=sessionFactory.openSession();
+		User user=session.get(User.class,username);
+		session.close();
+		return user;
 	
 
-	
+	}
 
 }

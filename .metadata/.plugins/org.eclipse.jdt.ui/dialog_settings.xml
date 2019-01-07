@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="D:\Certification\hibernatejar" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="D:\Certification" key="org.eclipse.jdt.ui.lastextjar"/>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 		<item value="false" key="updateQualifiedNames"/>
 		<item value="*" key="patterns"/>
@@ -27,7 +27,7 @@
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 		<item value="1020" key="DIALOG_HEIGHT"/>
 		<item value="856" key="DIALOG_X_ORIGIN"/>
-		<item value="-1" key="DIALOG_Y_ORIGIN"/>
+		<item value="11" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="RefactoringWizard.preview">
 		<item value="790" key="width"/>
